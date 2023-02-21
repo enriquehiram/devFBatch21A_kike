@@ -1,5 +1,4 @@
 // XHR, se suele utilzar con callbacks.
-
 "use strict";
 
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
