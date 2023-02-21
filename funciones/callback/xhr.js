@@ -1,7 +1,12 @@
+// XHR, se suele utilzar con callbacks.
+
 "use strict";
 
 const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-const url = "https://pokeapi.co/api/v2/pokemon/pikachu";
+// url que falla
+const url = "https://pokeapi.co/api/v2/pkemon/pikachu";
+// url que tiene èxito
+const url2 = "https://pokeapi.co/api/v2/pokemon/squirtle";
 
 function getData(url, callback) {
   let xhttp = new XMLHttpRequest();
@@ -22,4 +27,7 @@ function getData(url, callback) {
 
 getData(url, (data, error) => {
   console.log(data, error);
+  getData(url2, (data2, error2) => {
+    console.log(data2, error2);
+  });
 });
