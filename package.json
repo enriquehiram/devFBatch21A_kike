@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/enriquehiram/devFBatch21A_kike#readme",
   "dependencies": {
-    "nodemon": "^2.0.20"
-  },
-  "devDependencies": {}
+    "nodemon": "^2.0.20",
+    "xmlhttprequest": "^1.8.0"
+  }
 }
