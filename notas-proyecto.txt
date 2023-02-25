@@ -1,0 +1,20 @@
+Esto lo escribí yo mismo para no perderme de los requerimientos
+
+Subir el enlace de tu repositorio a la plataforma de campus.
+Tiempo estimado para recibir retroalimentación: Viernes 3 de Marzo 2023
+
+Requerimiento:
+
+interfaz gráfica de usario responsive (responsive: media queries, flexbox, css, grid)
+consumir y presentar en el DOM, al menos 5 datos de la API
+
+STACK
+- git y git hub
+- HTML y javascript requeridos
+- Estilo libres: puede usar CSS puro, SASS, BOOTSTRAP, TAILWIND, BULMA, ANT DESIGN, etc.
+
+OPCIONAL
+- Agregar un spiner de carga
+- Agregar lazy loading para las imagenes.Te pudede servir la web api de intersection observer ó el atributo html "lazy"
+
+figma
