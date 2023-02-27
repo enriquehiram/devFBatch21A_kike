@@ -1,0 +1,28 @@
+1. Para poder hacer uso de esta
+practica, ejecute:
+
+npm install
+
+para instalar las dependencias indicadas por defecto en el
+package.json de este proyecto.
+
+2. Instale browserify de forma global con el comando:
+npm install -g browserify
+
+y ejecute:
+3. browserify crud/src/index.js -o crud/src/bundle.js
+
+IMPORTANTE: Leer la documentaciòn de browserify y uuid para entender los
+paquetes usados en esta ocasion.
+
+DOCUMENTACION DE:
+browserify, https://browserify.org/
+uuid, https://www.npmjs.com/package/uuid
+
+4. Levante su servidor de pruebas json-server, con el comando
+json-server crud/models/db.json
+
+Ahora solo verifique que la practica funciona de forma adecuada,
+levantando su pagina html con live server 😀
+
+TIP: Use esta practica para modificarla y crear su propia version.
