@@ -1,2 +1,2 @@
-export const nombre = 'Dolores';
-export const apellido = 'Garcilazo';
+export const nombre = "Dolores";
+export const apellido = "Garcilazo";
